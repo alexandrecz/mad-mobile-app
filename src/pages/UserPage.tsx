@@ -47,7 +47,7 @@ const UserPage = (): JSX.Element => {
     };
 
     const backToPageList = (): void => {
-        navigate(-1);
+        navigate('/');
     }
 
     useEffect(() => {
