@@ -6,7 +6,7 @@ This is part of Alexandre Czechowicz's Code test.
    1. in order to handled styles, only plain css, also React Styled components;
    2. in order to handled state, only used React Context - no Redux, Recoil, or whatever...;
    3. in order to bundle it, Vite was the option;
-   4. in order to handled styles, only plain css, also React Styled components;
+   4. Thanks;
 
 ## Final notes 👁️‍🗨️:
 
