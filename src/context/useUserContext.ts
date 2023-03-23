@@ -66,13 +66,13 @@ export function useUserContext(): {
     const sortedType = (userParam1: User, userParam2: User) => {
       switch (sortType) {
         case UserEnumQuery.NAME:
-          return userParam1.name.first > userParam1.name.first ? 1 : -1;
+          return userParam1.name.first > userParam2.name.first ? 1 : -1;
         case UserEnumQuery.EMAIL:
-          return userParam1.email > userParam1.email ? 1 : -1;
+          return userParam1.email > userParam2.email ? 1 : -1;
         case UserEnumQuery.PHONE:
-          return userParam1.phone > userParam1.phone ? 1 : -1;
+          return userParam1.phone > userParam2.phone ? 1 : -1;
         case UserEnumQuery.CITY:
-          return userParam1.location.city > userParam1.location.city ? 1 : -1;
+          return userParam1.location.city > userParam2.location.city ? 1 : -1;
       }
     };
 
